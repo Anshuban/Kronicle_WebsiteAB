@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color: white;
+}
+.navimg{
+    height: 40px;
+}
+.navleft, .navright{
+    display: flex;
+    gap: 14px;
+    font-size: 22px;
+    font-family: serif;
+}
+.navbardiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px;
+    border-color: white;
+    border-bottom: solid;
+    padding-bottom: 10px;
+}
+.Navbar{
+    padding: 4px 24px;
+}
+.Footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(18, 18, 18);
+    padding: 10px;
+}
+.footermain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footer-container{
+align-items: center;
+width: auto;
+
+}
+.footer-container div{
+    text-align: center;
+}
+.location-div{
+    
+}
+.contact-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-items img{
+    width: 28px;
+    height: 28px;
+}
+.footer-container-title{
+    font-weight: bold;
+    font-size: 26px;
+    padding-bottom: 5px;
+    border-bottom: 4px;
+    border-bottom: solid;
+    margin-bottom: 6px;
+}
